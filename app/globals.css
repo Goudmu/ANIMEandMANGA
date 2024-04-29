@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #000;
+  background-color: #fefaf6;
 }
 
 .red-gradient {
@@ -14,5 +14,5 @@ body {
 }
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }

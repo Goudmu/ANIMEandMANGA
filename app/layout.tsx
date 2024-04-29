@@ -5,6 +5,8 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
 import "./globals.css";
+import { Slideshow } from "@/components/Slideshow";
+import Navbar from "@/components/Navbar";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -21,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dmSans.className}>
-        <main className="max-w-7xl mx-auto bg-[#0F1117]">
-          <Hero />
+        <main className="max-w-[90%] mx-auto bg-[#FEFAF6] overflow-x-hidden">
+          {/* <Hero /> */}
+          <Navbar />
+
           {children}
           <Footer />
         </main>
